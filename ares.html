@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+
+    </title>
+    <style>
+        .container{
+            border: 5px solid black;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .container >div{
+            padding: 10px;
+            margin: 5px;
+            background-color: lightblue;
+            border-radius: 5px;
+        }
+        .home{
+            background-color: lightgreen;
+        }
+        .content{
+            flex-direction: row;
+            display: flex;
+        }
+        .footer > p{
+            text-align: end;
+        }
+        .tablel{
+            border: 5px solid black;
+            border-collapse: collapse;
+            width: 100%;
+        }
+    </style>
+
+</head>
+<body>
+    <nav class="container">
+        <div class="home">home</div>
+        <div class="about">about</div>
+        <div class="contact">contact</div>
+    </nav>
+
+    <main class="content">
+        <div>
+            <h2>ini from</h2>
+        </div>
+        <div>
+            <h2>ini tabel</h2>
+            <table class="tablel">
+                <tr>
+                    <th>NAMA</th>
+                    <th>tanggal lahir</th>
+                    <th>jenis kelamin</th>
+                    <th>pesan</th>
+                    <th>profile</th>
+                    <th>hapus</th>
+                </tr>
+                <tr>
+                    <th>NAMA</th>
+                    <th>tanggal lahir</th>
+                    <th>jenis kelamin</th>
+                    <th>pesan</th>
+                    <th>profile</th>
+                    <th><a href="ares.html">klik ini</a></th>
+                </tr>
+            </table>
+        </div>
+        
+    </main>
+    <footer class="footer">
+        <p>Footer content goes here</p>
+    </footer>
+</body>
+</html>
